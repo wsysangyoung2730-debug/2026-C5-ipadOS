@@ -36,31 +36,31 @@
 
 /* Begin PBXFileReference section */
 		9371E7F57A474A25CF89FAA6 /* TalkArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8E973C3ECE0D337AF0A3551 /* TalkArenaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/App/TalkArenaApp.swift; sourceTree = SOURCE_ROOT; };
-		04349A2DE68B999385E428A0 /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/AppMode.swift; sourceTree = SOURCE_ROOT; };
-		3483203C7CCD7AAA21B528E7 /* CharacterProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/CharacterProfile.swift; sourceTree = SOURCE_ROOT; };
-		C7201774F4FBDF8110ED4EC8 /* DialogChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/DialogChoice.swift; sourceTree = SOURCE_ROOT; };
-		127E112842F2C43D8F7E3A2D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/SampleData.swift; sourceTree = SOURCE_ROOT; };
-		7FEBB9C4BC4ED9DDFA531532 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/Scenario.swift; sourceTree = SOURCE_ROOT; };
-		BD106205E5B77121BE34CB97 /* ChallengeIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ChallengeIntroView.swift; sourceTree = SOURCE_ROOT; };
-		A8BB0B12160C1FB97C00662F /* ChallengeResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ChallengeResultView.swift; sourceTree = SOURCE_ROOT; };
-		06DB180F5BDFA3023592CA43 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ChallengeView.swift; sourceTree = SOURCE_ROOT; };
-		5F060D5C426E07599DBA81A6 /* ConversationBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ConversationBoard.swift; sourceTree = SOURCE_ROOT; };
-		4B8A99D8C811F060339CFEDA /* DialogueSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/DialogueSceneView.swift; sourceTree = SOURCE_ROOT; };
-		E59D6ED4EF60C69BDF2516CD /* ScenarioPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ScenarioPanel.swift; sourceTree = SOURCE_ROOT; };
-		799F8612A3EACC8F524CA6B2 /* ScorePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ScorePanel.swift; sourceTree = SOURCE_ROOT; };
-		CF25B76A3E88FB15A6AEA2A1 /* TurnFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/TurnFeedbackView.swift; sourceTree = SOURCE_ROOT; };
-		070156E33AD34ADA00A884CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
-		950E72D1A64622B38338B7A0 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Practice/PracticeView.swift; sourceTree = SOURCE_ROOT; };
-		E1AF7D41A063DC7833A4437B /* ArenaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ArenaButton.swift; sourceTree = SOURCE_ROOT; };
-		78660D46390E161FA1E57F2E /* ArenaSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ArenaSidebar.swift; sourceTree = SOURCE_ROOT; };
-		930097279F44A91477848F03 /* CharacterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/CharacterCard.swift; sourceTree = SOURCE_ROOT; };
-		02349869ABC843F41A8A40C7 /* ChoiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ChoiceCard.swift; sourceTree = SOURCE_ROOT; };
-		25AF100E84F98706B1FE720D /* DialogueBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/DialogueBox.swift; sourceTree = SOURCE_ROOT; };
-		097CDDE55A7C9F08302BB6E5 /* IllustratedStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/IllustratedStageView.swift; sourceTree = SOURCE_ROOT; };
-		41E8662D0F02C32EEA99E555 /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ScoreRow.swift; sourceTree = SOURCE_ROOT; };
-		66820F4105F04D2A9B995738 /* TalkArenaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/DesignSystem/TalkArenaColor.swift; sourceTree = SOURCE_ROOT; };
-		6798DB28D57D287A8AA9816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TalkArena/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		E8E973C3ECE0D337AF0A3551 /* TalkArenaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArenaApp.swift; sourceTree = "<group>"; };
+		04349A2DE68B999385E428A0 /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		3483203C7CCD7AAA21B528E7 /* CharacterProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProfile.swift; sourceTree = "<group>"; };
+		C7201774F4FBDF8110ED4EC8 /* DialogChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogChoice.swift; sourceTree = "<group>"; };
+		127E112842F2C43D8F7E3A2D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		7FEBB9C4BC4ED9DDFA531532 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		BD106205E5B77121BE34CB97 /* ChallengeIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeIntroView.swift; sourceTree = "<group>"; };
+		A8BB0B12160C1FB97C00662F /* ChallengeResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeResultView.swift; sourceTree = "<group>"; };
+		06DB180F5BDFA3023592CA43 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		5F060D5C426E07599DBA81A6 /* ConversationBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationBoard.swift; sourceTree = "<group>"; };
+		4B8A99D8C811F060339CFEDA /* DialogueSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueSceneView.swift; sourceTree = "<group>"; };
+		E59D6ED4EF60C69BDF2516CD /* ScenarioPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioPanel.swift; sourceTree = "<group>"; };
+		799F8612A3EACC8F524CA6B2 /* ScorePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePanel.swift; sourceTree = "<group>"; };
+		CF25B76A3E88FB15A6AEA2A1 /* TurnFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnFeedbackView.swift; sourceTree = "<group>"; };
+		070156E33AD34ADA00A884CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		950E72D1A64622B38338B7A0 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		E1AF7D41A063DC7833A4437B /* ArenaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaButton.swift; sourceTree = "<group>"; };
+		78660D46390E161FA1E57F2E /* ArenaSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaSidebar.swift; sourceTree = "<group>"; };
+		930097279F44A91477848F03 /* CharacterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCard.swift; sourceTree = "<group>"; };
+		02349869ABC843F41A8A40C7 /* ChoiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceCard.swift; sourceTree = "<group>"; };
+		25AF100E84F98706B1FE720D /* DialogueBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueBox.swift; sourceTree = "<group>"; };
+		097CDDE55A7C9F08302BB6E5 /* IllustratedStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratedStageView.swift; sourceTree = "<group>"; };
+		41E8662D0F02C32EEA99E555 /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRow.swift; sourceTree = "<group>"; };
+		66820F4105F04D2A9B995738 /* TalkArenaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArenaColor.swift; sourceTree = "<group>"; };
+		6798DB28D57D287A8AA9816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,20 +77,72 @@
 		2EB2D8158FC6EF9EB19CB439 = {
 			isa = PBXGroup;
 			children = (
-				0938A84AF45C5B9BB10376C7 /* TalkArena */,
+				510D319F0150AE1E3F1B8EDC /* TalkArena */,
 				1E78B559816E575FC0BDB29C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0938A84AF45C5B9BB10376C7 /* TalkArena */ = {
+		510D319F0150AE1E3F1B8EDC /* TalkArena */ = {
+			isa = PBXGroup;
+			children = (
+				66A9C924A8D2AF71A69C8E1E /* App */,
+				99EB6126DFD8F6A3226014F2 /* Core */,
+				78B4923B765402BE33BEA1EA /* Features */,
+				2BCC5DDF0DC701470601B219 /* Shared */,
+				7DEEFE1D0CB7E8122CC37B02 /* Resources */,
+			);
+			path = TalkArena;
+			sourceTree = "<group>";
+		};
+		66A9C924A8D2AF71A69C8E1E /* App */ = {
 			isa = PBXGroup;
 			children = (
 				E8E973C3ECE0D337AF0A3551 /* TalkArenaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		99EB6126DFD8F6A3226014F2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				094ECF964D2D4A4D75362077 /* Models */,
+				E4449734F2F61F97E558727F /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		094ECF964D2D4A4D75362077 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				04349A2DE68B999385E428A0 /* AppMode.swift */,
 				3483203C7CCD7AAA21B528E7 /* CharacterProfile.swift */,
 				C7201774F4FBDF8110ED4EC8 /* DialogChoice.swift */,
 				127E112842F2C43D8F7E3A2D /* SampleData.swift */,
 				7FEBB9C4BC4ED9DDFA531532 /* Scenario.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4449734F2F61F97E558727F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		78B4923B765402BE33BEA1EA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2FFC234150E7535F7D2196E3 /* Challenge */,
+				67762D3AA0A3477B1CED8C3D /* Home */,
+				3EB3229DB205FFB099FC569E /* Practice */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2FFC234150E7535F7D2196E3 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
 				BD106205E5B77121BE34CB97 /* ChallengeIntroView.swift */,
 				A8BB0B12160C1FB97C00662F /* ChallengeResultView.swift */,
 				06DB180F5BDFA3023592CA43 /* ChallengeView.swift */,
@@ -99,8 +151,38 @@
 				E59D6ED4EF60C69BDF2516CD /* ScenarioPanel.swift */,
 				799F8612A3EACC8F524CA6B2 /* ScorePanel.swift */,
 				CF25B76A3E88FB15A6AEA2A1 /* TurnFeedbackView.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		67762D3AA0A3477B1CED8C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				070156E33AD34ADA00A884CA /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3EB3229DB205FFB099FC569E /* Practice */ = {
+			isa = PBXGroup;
+			children = (
 				950E72D1A64622B38338B7A0 /* PracticeView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		2BCC5DDF0DC701470601B219 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CACF1136DCC3D6B386CC8 /* Components */,
+				B5506DB94EC0C0CC92659A21 /* DesignSystem */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8D3CACF1136DCC3D6B386CC8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
 				E1AF7D41A063DC7833A4437B /* ArenaButton.swift */,
 				78660D46390E161FA1E57F2E /* ArenaSidebar.swift */,
 				930097279F44A91477848F03 /* CharacterCard.swift */,
@@ -108,10 +190,24 @@
 				25AF100E84F98706B1FE720D /* DialogueBox.swift */,
 				097CDDE55A7C9F08302BB6E5 /* IllustratedStageView.swift */,
 				41E8662D0F02C32EEA99E555 /* ScoreRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5506DB94EC0C0CC92659A21 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
 				66820F4105F04D2A9B995738 /* TalkArenaColor.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		7DEEFE1D0CB7E8122CC37B02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				6798DB28D57D287A8AA9816F /* Assets.xcassets */,
 			);
-			name = TalkArena;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		1E78B559816E575FC0BDB29C /* Products */ = {
