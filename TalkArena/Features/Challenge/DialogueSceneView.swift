@@ -2,7 +2,9 @@ import SwiftUI
 
 struct DialogueSceneView: View {
     private let choices = DialogChoice.samples
-    let selectAction: () -> Void
+    let scenario: Scenario
+    let turn: Int
+    let selectAction: (DialogChoice) -> Void
 
     var body: some View {
         ZStack {
@@ -21,8 +23,8 @@ struct DialogueSceneView: View {
                 Spacer()
 
                 DialogueBox(
-                    speaker: "팀원 A",
-                    line: "이게 전부 제 잘못은 아니잖아요. 외부 요청이 계속 바뀌었다고요."
+                    speaker: scenario.characters.first?.name ?? "상대",
+                    line: scenario.openingLine
                 )
                 .padding(.horizontal, 34)
 
@@ -35,7 +37,7 @@ struct DialogueSceneView: View {
                     LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 14) {
                         ForEach(choices) { choice in
                             StrategyChoiceButton(choice: choice) {
-                                selectAction()
+                                selectAction(choice)
                             }
                         }
                     }
@@ -51,7 +53,7 @@ struct DialogueSceneView: View {
     private var missionBadge: some View {
         HStack(spacing: 10) {
             Image(systemName: "flag.fill")
-            Text("턴 4 / 12 · 회의 갈등")
+            Text("턴 \(turn) / 3 · \(scenario.title)")
         }
         .font(.headline)
         .foregroundStyle(.white)
@@ -145,4 +147,3 @@ private struct StatMeter: View {
         }
     }
 }
-

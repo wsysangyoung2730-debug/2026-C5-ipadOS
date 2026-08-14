@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct TurnFeedbackView: View {
+    let selectedChoice: DialogChoice?
     let retryAction: () -> Void
     let nextAction: () -> Void
 
@@ -13,6 +14,23 @@ struct TurnFeedbackView: View {
                 Text("턴 결과")
                     .font(.system(size: 44, weight: .heavy, design: .rounded))
                     .foregroundStyle(TalkArenaColor.ink)
+
+                if let selectedChoice {
+                    VStack(spacing: 8) {
+                        Text("내가 고른 말")
+                            .font(.caption.bold())
+                            .foregroundStyle(TalkArenaColor.arenaPurple)
+
+                        Text("“\(selectedChoice.text)”")
+                            .font(.title3.bold())
+                            .foregroundStyle(TalkArenaColor.ink)
+                            .multilineTextAlignment(.center)
+                    }
+                    .padding(18)
+                    .frame(maxWidth: .infinity)
+                    .background(TalkArenaColor.neonMint.opacity(0.18))
+                    .clipShape(RoundedRectangle(cornerRadius: 22))
+                }
 
                 HStack(spacing: 12) {
                     scoreChip("신뢰도 +8", color: TalkArenaColor.trustGreen)
@@ -50,7 +68,7 @@ struct TurnFeedbackView: View {
                         .background(TalkArenaColor.arenaPurple.opacity(0.10))
                         .clipShape(Capsule())
 
-                    ArenaButton("다음 턴", systemImage: "arrow.right", action: nextAction)
+                    ArenaButton("계속하기", systemImage: "arrow.right", action: nextAction)
                 }
             }
             .padding(34)

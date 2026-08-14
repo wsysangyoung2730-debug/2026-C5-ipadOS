@@ -1,7 +1,9 @@
 import SwiftUI
 
 struct ChallengeResultView: View {
+    let scenario: Scenario
     let restartAction: () -> Void
+    let lobbyAction: () -> Void
 
     var body: some View {
         ZStack {
@@ -14,6 +16,10 @@ struct ChallengeResultView: View {
                     Text("챌린지 클리어")
                         .font(.headline)
                         .foregroundStyle(TalkArenaColor.arenaPurple)
+
+                    Text(scenario.missionTitle)
+                        .font(.title2.bold())
+                        .foregroundStyle(TalkArenaColor.mutedInk)
 
                     HStack(alignment: .firstTextBaseline, spacing: 16) {
                         Text("A")
@@ -38,7 +44,7 @@ struct ChallengeResultView: View {
                     HStack(spacing: 14) {
                         ArenaButton("다시 도전하기", systemImage: "arrow.clockwise", action: restartAction)
 
-                        Button("더 어려운 상황") {}
+                        Button("다른 미션 고르기", action: lobbyAction)
                             .font(.headline)
                             .foregroundStyle(TalkArenaColor.arenaPurple)
                             .padding(.horizontal, 24)
@@ -87,4 +93,3 @@ private struct ResultMeter: View {
         }
     }
 }
-

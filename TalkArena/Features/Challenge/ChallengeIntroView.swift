@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ChallengeIntroView: View {
     let scenario: Scenario
+    let backAction: () -> Void
     let startAction: () -> Void
 
     var body: some View {
@@ -9,7 +10,20 @@ struct ChallengeIntroView: View {
             IllustratedStageView(characterMood: .confident)
 
             VStack(spacing: 26) {
-                Spacer()
+                HStack {
+                    Button(action: backAction) {
+                        Label("미션 다시 고르기", systemImage: "chevron.left")
+                            .font(.headline)
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 18)
+                            .padding(.vertical, 12)
+                            .background(.black.opacity(0.26))
+                            .clipShape(Capsule())
+                    }
+                    .buttonStyle(.plain)
+
+                    Spacer()
+                }
 
                 VStack(spacing: 22) {
                     Label("미션 브리핑", systemImage: "flag.fill")
@@ -21,7 +35,7 @@ struct ChallengeIntroView: View {
                         .clipShape(Capsule())
 
                     VStack(spacing: 16) {
-                        Text("책임 떠넘기기")
+                        Text(scenario.missionTitle)
                             .font(.system(size: 46, weight: .heavy, design: .rounded))
                             .foregroundStyle(TalkArenaColor.ink)
 
@@ -34,9 +48,9 @@ struct ChallengeIntroView: View {
                     }
 
                     HStack(spacing: 14) {
-                        traitChip("감정 인정")
-                        traitChip("책임 조율")
-                        traitChip("긴장 높음")
+                        ForEach(scenario.tags, id: \.self) { tag in
+                            traitChip(tag)
+                        }
                     }
 
                     HStack(spacing: 16) {
@@ -108,4 +122,3 @@ private struct MiniCharacterCard: View {
         .shadow(color: .black.opacity(0.08), radius: 14, x: 0, y: 8)
     }
 }
-
