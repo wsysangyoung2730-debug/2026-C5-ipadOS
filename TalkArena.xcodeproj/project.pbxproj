@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1913D8A5EFAEB487A45E4D58 /* TalkArenaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E973C3ECE0D337AF0A3551 /* TalkArenaApp.swift */; };
+		10661B0C5652F6C3C4E895F7 /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04349A2DE68B999385E428A0 /* AppMode.swift */; };
+		B4C631876FADD88E3AD07C05 /* CharacterProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3483203C7CCD7AAA21B528E7 /* CharacterProfile.swift */; };
+		EA37353004ED223EFC95011C /* DialogChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7201774F4FBDF8110ED4EC8 /* DialogChoice.swift */; };
+		40E314093154AB82F11211C5 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127E112842F2C43D8F7E3A2D /* SampleData.swift */; };
+		2643706EAB9732DD150CA4D0 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBB9C4BC4ED9DDFA531532 /* Scenario.swift */; };
+		84648DB9F1A32CABE43C6174 /* ChallengeIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD106205E5B77121BE34CB97 /* ChallengeIntroView.swift */; };
+		40C074519B7B44CB8920A36B /* ChallengeResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB0B12160C1FB97C00662F /* ChallengeResultView.swift */; };
+		67B5EED0C2FBA1CA015E792A /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB180F5BDFA3023592CA43 /* ChallengeView.swift */; };
+		AD9A428F63BE353CF1C3CDA7 /* ConversationBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F060D5C426E07599DBA81A6 /* ConversationBoard.swift */; };
+		30429B16BEBE84619AB26430 /* DialogueSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A99D8C811F060339CFEDA /* DialogueSceneView.swift */; };
+		24DE95BC22541F1B77FFA24C /* ScenarioPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D6ED4EF60C69BDF2516CD /* ScenarioPanel.swift */; };
+		0B7F69CE374049EE818597E1 /* ScorePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F8612A3EACC8F524CA6B2 /* ScorePanel.swift */; };
+		A4F7C97C50D785F72CFC2261 /* TurnFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25B76A3E88FB15A6AEA2A1 /* TurnFeedbackView.swift */; };
+		2ABB574C05B1B41754FDE982 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070156E33AD34ADA00A884CA /* HomeView.swift */; };
+		DE7367D229B5F9C479399E26 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E72D1A64622B38338B7A0 /* PracticeView.swift */; };
+		0D67ECE35B2CEBF2D31D4668 /* ArenaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF7D41A063DC7833A4437B /* ArenaButton.swift */; };
+		79F162E141E9C1DC0E77CE0E /* ArenaSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78660D46390E161FA1E57F2E /* ArenaSidebar.swift */; };
+		5FB10D8037A73BC196CA4B94 /* CharacterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930097279F44A91477848F03 /* CharacterCard.swift */; };
+		3970C2E9ADF54EE297F032F5 /* ChoiceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02349869ABC843F41A8A40C7 /* ChoiceCard.swift */; };
+		C69251BE02C1244369B024CC /* DialogueBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AF100E84F98706B1FE720D /* DialogueBox.swift */; };
+		337A8B7530EC901D52ABE42E /* IllustratedStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097CDDE55A7C9F08302BB6E5 /* IllustratedStageView.swift */; };
+		AB47203FF0F45625CA53CBD5 /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E8662D0F02C32EEA99E555 /* ScoreRow.swift */; };
+		4C1AA67229988CB7D2C6A3CB /* TalkArenaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66820F4105F04D2A9B995738 /* TalkArenaColor.swift */; };
+		3380114F07A01605CFD9082E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6798DB28D57D287A8AA9816F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9371E7F57A474A25CF89FAA6 /* TalkArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E973C3ECE0D337AF0A3551 /* TalkArenaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/App/TalkArenaApp.swift; sourceTree = SOURCE_ROOT; };
+		04349A2DE68B999385E428A0 /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/AppMode.swift; sourceTree = SOURCE_ROOT; };
+		3483203C7CCD7AAA21B528E7 /* CharacterProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/CharacterProfile.swift; sourceTree = SOURCE_ROOT; };
+		C7201774F4FBDF8110ED4EC8 /* DialogChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/DialogChoice.swift; sourceTree = SOURCE_ROOT; };
+		127E112842F2C43D8F7E3A2D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/SampleData.swift; sourceTree = SOURCE_ROOT; };
+		7FEBB9C4BC4ED9DDFA531532 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Core/Models/Scenario.swift; sourceTree = SOURCE_ROOT; };
+		BD106205E5B77121BE34CB97 /* ChallengeIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ChallengeIntroView.swift; sourceTree = SOURCE_ROOT; };
+		A8BB0B12160C1FB97C00662F /* ChallengeResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ChallengeResultView.swift; sourceTree = SOURCE_ROOT; };
+		06DB180F5BDFA3023592CA43 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ChallengeView.swift; sourceTree = SOURCE_ROOT; };
+		5F060D5C426E07599DBA81A6 /* ConversationBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ConversationBoard.swift; sourceTree = SOURCE_ROOT; };
+		4B8A99D8C811F060339CFEDA /* DialogueSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/DialogueSceneView.swift; sourceTree = SOURCE_ROOT; };
+		E59D6ED4EF60C69BDF2516CD /* ScenarioPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ScenarioPanel.swift; sourceTree = SOURCE_ROOT; };
+		799F8612A3EACC8F524CA6B2 /* ScorePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/ScorePanel.swift; sourceTree = SOURCE_ROOT; };
+		CF25B76A3E88FB15A6AEA2A1 /* TurnFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Challenge/TurnFeedbackView.swift; sourceTree = SOURCE_ROOT; };
+		070156E33AD34ADA00A884CA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		950E72D1A64622B38338B7A0 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Features/Practice/PracticeView.swift; sourceTree = SOURCE_ROOT; };
+		E1AF7D41A063DC7833A4437B /* ArenaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ArenaButton.swift; sourceTree = SOURCE_ROOT; };
+		78660D46390E161FA1E57F2E /* ArenaSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ArenaSidebar.swift; sourceTree = SOURCE_ROOT; };
+		930097279F44A91477848F03 /* CharacterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/CharacterCard.swift; sourceTree = SOURCE_ROOT; };
+		02349869ABC843F41A8A40C7 /* ChoiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ChoiceCard.swift; sourceTree = SOURCE_ROOT; };
+		25AF100E84F98706B1FE720D /* DialogueBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/DialogueBox.swift; sourceTree = SOURCE_ROOT; };
+		097CDDE55A7C9F08302BB6E5 /* IllustratedStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/IllustratedStageView.swift; sourceTree = SOURCE_ROOT; };
+		41E8662D0F02C32EEA99E555 /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/Components/ScoreRow.swift; sourceTree = SOURCE_ROOT; };
+		66820F4105F04D2A9B995738 /* TalkArenaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArena/Shared/DesignSystem/TalkArenaColor.swift; sourceTree = SOURCE_ROOT; };
+		6798DB28D57D287A8AA9816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TalkArena/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196738691649AC2E2FD321A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB2D8158FC6EF9EB19CB439 = {
+			isa = PBXGroup;
+			children = (
+				0938A84AF45C5B9BB10376C7 /* TalkArena */,
+				1E78B559816E575FC0BDB29C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0938A84AF45C5B9BB10376C7 /* TalkArena */ = {
+			isa = PBXGroup;
+			children = (
+				E8E973C3ECE0D337AF0A3551 /* TalkArenaApp.swift */,
+				04349A2DE68B999385E428A0 /* AppMode.swift */,
+				3483203C7CCD7AAA21B528E7 /* CharacterProfile.swift */,
+				C7201774F4FBDF8110ED4EC8 /* DialogChoice.swift */,
+				127E112842F2C43D8F7E3A2D /* SampleData.swift */,
+				7FEBB9C4BC4ED9DDFA531532 /* Scenario.swift */,
+				BD106205E5B77121BE34CB97 /* ChallengeIntroView.swift */,
+				A8BB0B12160C1FB97C00662F /* ChallengeResultView.swift */,
+				06DB180F5BDFA3023592CA43 /* ChallengeView.swift */,
+				5F060D5C426E07599DBA81A6 /* ConversationBoard.swift */,
+				4B8A99D8C811F060339CFEDA /* DialogueSceneView.swift */,
+				E59D6ED4EF60C69BDF2516CD /* ScenarioPanel.swift */,
+				799F8612A3EACC8F524CA6B2 /* ScorePanel.swift */,
+				CF25B76A3E88FB15A6AEA2A1 /* TurnFeedbackView.swift */,
+				070156E33AD34ADA00A884CA /* HomeView.swift */,
+				950E72D1A64622B38338B7A0 /* PracticeView.swift */,
+				E1AF7D41A063DC7833A4437B /* ArenaButton.swift */,
+				78660D46390E161FA1E57F2E /* ArenaSidebar.swift */,
+				930097279F44A91477848F03 /* CharacterCard.swift */,
+				02349869ABC843F41A8A40C7 /* ChoiceCard.swift */,
+				25AF100E84F98706B1FE720D /* DialogueBox.swift */,
+				097CDDE55A7C9F08302BB6E5 /* IllustratedStageView.swift */,
+				41E8662D0F02C32EEA99E555 /* ScoreRow.swift */,
+				66820F4105F04D2A9B995738 /* TalkArenaColor.swift */,
+				6798DB28D57D287A8AA9816F /* Assets.xcassets */,
+			);
+			name = TalkArena;
+			sourceTree = "<group>";
+		};
+		1E78B559816E575FC0BDB29C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9371E7F57A474A25CF89FAA6 /* TalkArena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B68AEC45723567A00C43D9 /* TalkArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31BA15CC04B0F0B923553D1 /* Build configuration list for PBXNativeTarget "TalkArena" */;
+			buildPhases = (
+				B0193229F5D633567D732C36 /* Sources */,
+				196738691649AC2E2FD321A6 /* Frameworks */,
+				8B0AD72DF5FB9B933D77B1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkArena;
+			productReference = 9371E7F57A474A25CF89FAA6 /* TalkArena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E88446A3F44B57E975BE17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					69B68AEC45723567A00C43D9 = {
+						CreatedOnToolsVersion = 26.5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 314425BAD361EE8153704C56 /* Build configuration list for PBXProject "TalkArena" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB2D8158FC6EF9EB19CB439;
+			productRefGroup = 1E78B559816E575FC0BDB29C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B68AEC45723567A00C43D9 /* TalkArena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0AD72DF5FB9B933D77B1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3380114F07A01605CFD9082E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0193229F5D633567D732C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1913D8A5EFAEB487A45E4D58 /* TalkArenaApp.swift in Sources */,
+				10661B0C5652F6C3C4E895F7 /* AppMode.swift in Sources */,
+				B4C631876FADD88E3AD07C05 /* CharacterProfile.swift in Sources */,
+				EA37353004ED223EFC95011C /* DialogChoice.swift in Sources */,
+				40E314093154AB82F11211C5 /* SampleData.swift in Sources */,
+				2643706EAB9732DD150CA4D0 /* Scenario.swift in Sources */,
+				84648DB9F1A32CABE43C6174 /* ChallengeIntroView.swift in Sources */,
+				40C074519B7B44CB8920A36B /* ChallengeResultView.swift in Sources */,
+				67B5EED0C2FBA1CA015E792A /* ChallengeView.swift in Sources */,
+				AD9A428F63BE353CF1C3CDA7 /* ConversationBoard.swift in Sources */,
+				30429B16BEBE84619AB26430 /* DialogueSceneView.swift in Sources */,
+				24DE95BC22541F1B77FFA24C /* ScenarioPanel.swift in Sources */,
+				0B7F69CE374049EE818597E1 /* ScorePanel.swift in Sources */,
+				A4F7C97C50D785F72CFC2261 /* TurnFeedbackView.swift in Sources */,
+				2ABB574C05B1B41754FDE982 /* HomeView.swift in Sources */,
+				DE7367D229B5F9C479399E26 /* PracticeView.swift in Sources */,
+				0D67ECE35B2CEBF2D31D4668 /* ArenaButton.swift in Sources */,
+				79F162E141E9C1DC0E77CE0E /* ArenaSidebar.swift in Sources */,
+				5FB10D8037A73BC196CA4B94 /* CharacterCard.swift in Sources */,
+				3970C2E9ADF54EE297F032F5 /* ChoiceCard.swift in Sources */,
+				C69251BE02C1244369B024CC /* DialogueBox.swift in Sources */,
+				337A8B7530EC901D52ABE42E /* IllustratedStageView.swift in Sources */,
+				AB47203FF0F45625CA53CBD5 /* ScoreRow.swift in Sources */,
+				4C1AA67229988CB7D2C6A3CB /* TalkArenaColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFD315016DE16320F7E2120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D8C0C6B1D22EA8C7669B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75BB3D5A44EA88B6630AB580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Talk Arena";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = (
+					UIInterfaceOrientationPortrait,
+					UIInterfaceOrientationPortraitUpsideDown,
+					UIInterfaceOrientationLandscapeLeft,
+					UIInterfaceOrientationLandscapeRight,
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangyoung.talkarena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		78E9FF212122B0C0397A6DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Talk Arena";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = (
+					UIInterfaceOrientationPortrait,
+					UIInterfaceOrientationPortraitUpsideDown,
+					UIInterfaceOrientationLandscapeLeft,
+					UIInterfaceOrientationLandscapeRight,
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangyoung.talkarena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314425BAD361EE8153704C56 /* Build configuration list for PBXProject "TalkArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD315016DE16320F7E2120C /* Debug */,
+				1D8C0C6B1D22EA8C7669B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31BA15CC04B0F0B923553D1 /* Build configuration list for PBXNativeTarget "TalkArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75BB3D5A44EA88B6630AB580 /* Debug */,
+				78E9FF212122B0C0397A6DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E88446A3F44B57E975BE17B /* Project object */;
+}

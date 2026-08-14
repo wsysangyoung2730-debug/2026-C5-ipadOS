@@ -24,17 +24,17 @@ struct TurnFeedbackView: View {
                     FeedbackRow(
                         icon: "hand.thumbsup.fill",
                         title: "좋았던 점",
-                        body: "상대의 감정을 먼저 인정해서 방어적인 분위기를 낮췄어요."
+                        message: "상대의 감정을 먼저 인정해서 방어적인 분위기를 낮췄어요."
                     )
                     FeedbackRow(
                         icon: "exclamationmark.bubble.fill",
                         title: "오해될 수 있는 지점",
-                        body: "아직 다음 행동이 구체적이지 않아 회의가 다시 흐려질 수 있어요."
+                        message: "아직 다음 행동이 구체적이지 않아 회의가 다시 흐려질 수 있어요."
                     )
                     FeedbackRow(
                         icon: "sparkles",
                         title: "다음 턴 힌트",
-                        body: "감정을 인정한 뒤, 일정 기준이나 확인할 사실을 하나만 제안해보세요."
+                        message: "감정을 인정한 뒤, 일정 기준이나 확인할 사실을 하나만 제안해보세요."
                     )
                 }
                 .padding(26)
@@ -75,7 +75,7 @@ struct TurnFeedbackView: View {
 private struct FeedbackRow: View {
     let icon: String
     let title: String
-    let body: String
+    let message: String
 
     var body: some View {
         HStack(alignment: .top, spacing: 14) {
@@ -88,11 +88,10 @@ private struct FeedbackRow: View {
                 Text(title)
                     .font(.headline)
                     .foregroundStyle(TalkArenaColor.ink)
-                Text(body)
+                Text(message)
                     .font(.body)
                     .foregroundStyle(TalkArenaColor.mutedInk)
             }
         }
     }
 }
-
