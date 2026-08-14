@@ -2,27 +2,55 @@ import SwiftUI
 
 struct ChallengeView: View {
     private let scenario = Scenario.sample
+    @State private var phase: ChallengePhase = .intro
 
     var body: some View {
-        HStack(spacing: 0) {
-            ScenarioPanel(scenario: scenario)
-                .frame(minWidth: 280, idealWidth: 340)
-
-            Divider()
-
-            ConversationBoard()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-
-            Divider()
-
-            ScorePanel()
-                .frame(minWidth: 260, idealWidth: 320)
+        ZStack {
+            switch phase {
+            case .intro:
+                ChallengeIntroView(scenario: scenario) {
+                    withAnimation(.spring(response: 0.55, dampingFraction: 0.86)) {
+                        phase = .dialogue
+                    }
+                }
+            case .dialogue:
+                DialogueSceneView {
+                    withAnimation(.spring(response: 0.55, dampingFraction: 0.86)) {
+                        phase = .feedback
+                    }
+                }
+            case .feedback:
+                TurnFeedbackView(
+                    retryAction: {
+                        withAnimation(.spring(response: 0.55, dampingFraction: 0.86)) {
+                            phase = .dialogue
+                        }
+                    },
+                    nextAction: {
+                        withAnimation(.spring(response: 0.55, dampingFraction: 0.86)) {
+                            phase = .result
+                        }
+                    }
+                )
+            case .result:
+                ChallengeResultView {
+                    withAnimation(.spring(response: 0.55, dampingFraction: 0.86)) {
+                        phase = .intro
+                    }
+                }
+            }
         }
-        .navigationTitle("Challenge Mode")
+        .animation(.easeInOut(duration: 0.24), value: phase)
     }
+}
+
+private enum ChallengePhase {
+    case intro
+    case dialogue
+    case feedback
+    case result
 }
 
 #Preview {
     ChallengeView()
 }
-
