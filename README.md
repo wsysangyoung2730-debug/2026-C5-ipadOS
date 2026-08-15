@@ -1,4 +1,4 @@
-# Talk Arena
+# Talk Arena (가제)
 
 AI 기반 대화 갈등 시뮬레이터 iPadOS 앱입니다.
 
