@@ -32,6 +32,7 @@
 		AB47203FF0F45625CA53CBD5 /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E8662D0F02C32EEA99E555 /* ScoreRow.swift */; };
 		4C1AA67229988CB7D2C6A3CB /* TalkArenaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66820F4105F04D2A9B995738 /* TalkArenaColor.swift */; };
 		3380114F07A01605CFD9082E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6798DB28D57D287A8AA9816F /* Assets.xcassets */; };
+		8C204BC68CB2EEE3047B556A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9276189D22DBBE38ED5A7 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		41E8662D0F02C32EEA99E555 /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRow.swift; sourceTree = "<group>"; };
 		66820F4105F04D2A9B995738 /* TalkArenaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkArenaColor.swift; sourceTree = "<group>"; };
 		6798DB28D57D287A8AA9816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C9276189D22DBBE38ED5A7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				2FFC234150E7535F7D2196E3 /* Challenge */,
 				67762D3AA0A3477B1CED8C3D /* Home */,
 				3EB3229DB205FFB099FC569E /* Practice */,
+				FB831A07B437CB33BB130F72 /* Profile */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -216,6 +219,14 @@
 				9371E7F57A474A25CF89FAA6 /* TalkArena.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FB831A07B437CB33BB130F72 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				02C9276189D22DBBE38ED5A7 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 				337A8B7530EC901D52ABE42E /* IllustratedStageView.swift in Sources */,
 				AB47203FF0F45625CA53CBD5 /* ScoreRow.swift in Sources */,
 				4C1AA67229988CB7D2C6A3CB /* TalkArenaColor.swift in Sources */,
+				8C204BC68CB2EEE3047B556A /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
